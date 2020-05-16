@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.db.models import Q
 from django.utils.translation import gettext_lazy as _
+from Dog_Breed_Classifier.core.classification import Dog_Classifier
 
 from .models import ImageModel
 
@@ -38,6 +39,16 @@ class ImageModelAdmin(admin.ModelAdmin):
     search_fields = [field.name for field in ImageModel._meta.get_fields()]
     list_display = [field.name for field in ImageModel._meta.get_fields()]
     list_filter = ('processed', 'upload_date', CategoryFilter,)
+    actions = ('run_classification', )
+
+    def run_classifier(self, image):
+        classifier = Dog_Classifier(image)
+        classifier.get_dog_category()
+
+    def run_classification(self, *args, **kwargs):
+        non_processed = ImageModel.objects.filter(processed=False)[:2]
+        for image in non_processed:
+            self.run_classifier(image)
 
 
 admin.site.register(ImageModel, ImageModelAdmin)
