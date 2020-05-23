@@ -21,7 +21,7 @@ The project has been organized as follows:
 - `Dog_Breed_Classifier/migrations/`: the folder containing the migration files.  
 - `Dog_Breed_Classifier_API/`: the folder that contains the api settings and the urls.  
 - `media/`: the folder where the uploaded images will be saved.  
-- `templates/`: the contains the HTML, CSS and Javscript files.
+- `templates/`: the folder that contains the HTML, CSS and Javscript files.
 
 
 
