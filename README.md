@@ -8,7 +8,22 @@
 
 ## About this repo:  
 
-An API for dog breeds classification.
+An API for dog breeds classification.  
+The API has been developed using *Django Framework*. While the classifier was created based on *transfer learning* technique using the Google **Inception V3** architecture.  
+
+## Content of the repo:  
+The project has been organized as follows:  
+- `manage.py`: the python script used to run several commands (`runserver/makemigrations/maigrate` and the commands added by the the user).  
+- `requirements.txt`: a text file containing the needed packages to run the project.  
+- `Dog_Breed_Classifier/`: the folder containing the model,views, urls, serializer, migration files and the custom commands and the core of the app.  
+- `Dog_Breed_Classifier/core`: the folder containing the model and the code used for the classification.  
+- `Dog_Breed_Classifier/management/`: the folder that contains the custom commands.  
+- `Dog_Breed_Classifier/migrations/`: the folder containing the migration files.  
+- `Dog_Breed_Classifier_API/`: the folder that contains the api settings and the urls.  
+- `media/`: the folder where the uploaded images will be saved.  
+- `templates/`: the contains the HTML, CSS and Javscript files.
+
+
 
 
 
