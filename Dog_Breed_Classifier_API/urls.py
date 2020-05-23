@@ -19,7 +19,7 @@ from django.conf.urls.static import static
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'', admin.site.urls),
+    url(r'', admin.site.urls, name='login'),
     url(r'^Dog_Breed_Classifier-auth/',
         include('rest_framework.urls', namespace='rest_framework')),
     url(r'^Dog_Breed_Classifier/', include('Dog_Breed_Classifier.urls')),
