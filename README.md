@@ -23,6 +23,32 @@ The project has been organized as follows:
 - `media/`: the folder where the uploaded images will be saved.  
 - `templates/`: the folder that contains the HTML, CSS and Javscript files.
 
+## Run the app:  
+*N.B:* use Python 3.6+
+**1. Clone the repo:**  
+on your terminal, run `git clone https://github.com/maky-hnou/Dog_Breed_Classifier_API.git`
+Then get into the project folder: `cd Dog_Breed_Classifier_API/`
+**2. Install requirements:**  
+Before running the app, we need to install some packages.  
+- *Optional* Create a virtual environment:  To do things in a clean way, let's create a virtual environment to keep things isolated.  
+Install the virtual environment wrapper: `pip3 install virtualenvwrapper`  
+Add the following lines to `~/.bashrc`:  
+```
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export VIRTUALENVWRAPPER_VIRTUALENV=~/.local/bin/virtualenv
+source ~/.local/bin/virtualenvwrapper.sh
+```
+Run `source ~/.bashrc`.
+Run `mkvirtualenv dog_classifier`
+Activate the virtual environment: `workon dog_classifier` (To deactivate the virtual environment, run `deactivate`)
+- Install requirements: To install the packages needed to run the application, run `pip3 install -r requirements.txt`  
+**3. Run the app:**  
+To run the application, you need to run the following command: `python3 manage.py runserver`.  
+Then on your browser, open http://127.0.0.1:8000/.  
+
+
 
 
 
