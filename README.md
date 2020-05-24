@@ -82,7 +82,7 @@ You can filter the uploaded images by 'processed/not processed', upload date or 
 
 **7. Demo:**  
 
-
+<a href="https://github.com/maky-hnou/Dog_Breed_Classifier_API/blob/master/demo/demo.gif"><img src="https://github.com/maky-hnou/Dog_Breed_Classifier_API/blob/master/demo/demo.gif" title="demo-gif"/></a>
 
 [python-version]:https://img.shields.io/badge/python-3.6+-brightgreen.svg
 [issues-image]:https://img.shields.io/github/issues/maky-hnou/Dog_Breed_Classifier_API.svg
