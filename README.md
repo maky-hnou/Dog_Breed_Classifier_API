@@ -42,9 +42,9 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export VIRTUALENVWRAPPER_VIRTUALENV=~/.local/bin/virtualenv
 source ~/.local/bin/virtualenvwrapper.sh
 ```
-Run `source ~/.bashrc`.
-Run `mkvirtualenv dog_classifier`
-Activate the virtual environment: `workon dog_classifier` (To deactivate the virtual environment, run `deactivate`)
+Run `source ~/.bashrc`  
+Run `mkvirtualenv dog_classifier`  
+Activate the virtual environment: `workon dog_classifier` (To deactivate the virtual environment, run `deactivate`)  
 - Install requirements: To install the packages needed to run the application, run `pip3 install -r requirements.txt`  
 
 **3. Run the app:**  
