@@ -80,6 +80,7 @@ It is also possible to run the classification from the terminal by opening anoth
 **6. Other options:**  
 You can filter the uploaded images by 'processed/not processed', upload date or by category.  
 
+**7. Demo:**  
 
 
 
