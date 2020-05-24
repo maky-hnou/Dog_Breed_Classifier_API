@@ -55,11 +55,12 @@ go to the lines 77/78/79 in `Dog_Breed_Classifier_API/settings.py` and choose th
 After that we create a database, user and password based on the ones you chose.  
 ```
 sudo -u postgres psql
-create database dogs_db;
-create user db_owner with encrypted password 'hanipwd';
-grant all privileges on database dogs_db to db_owner;
+create database db_name;
+create user db_user with encrypted password 'db_password';
+grant all privileges on database db_name to db_user;
 \q
-```
+```  
+Make sure to change `db_name, db_user and db_password` by the ones you chose in settings.py.  
 Then create a super user using: `python manage.py createsuperuser` and follow the steps.  
 Once we finish, we can run our app.   
 
