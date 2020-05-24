@@ -48,6 +48,7 @@ Run `source ~/.bashrc`
 Run `mkvirtualenv dog_classifier`  
 Activate the virtual environment: `workon dog_classifier` (To deactivate the virtual environment, run `deactivate`)  
 - Install requirements: To install the packages needed to run the application, run `pip3 install -r requirements.txt`  
+
 **3. Install postgreSQL:**  
 We need to install postgresql: `sudo apt install postgresql postgresql-contrib`  
 go to the lines 77/78/79 in `Dog_Breed_Classifier_API/settings.py` and choose the database name, user and password.  
