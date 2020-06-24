@@ -75,8 +75,8 @@ You can upload an image by clicking on *ADD IMAGE MODEL* on the top right.
 Once you add an image, click on *save*.  
 To run the classification, check the box near the ID of the image you uploaded, then in *Actions*, choose *Run classification* and then press Go.  
 After that, the page will reload and you'll a bunch of information including the dog breed class.  
-To delete and image, check the box near its ID and choose *Delete selected image models* then press go.  
-It is also possible to run the classification from the terminal by opening another terminal while the app is running and run the following command (make sure to active the virtual environment):  
+To delete and image, check the box near its ID and choose *Delete selected image models* then press Go.  
+It is also possible to run the classification from the terminal by opening another terminal while the app is running and run the following command (make sure to activate the virtual environment):  
 `python manage.py run_classification`  
 
 **6. Other options:**  
