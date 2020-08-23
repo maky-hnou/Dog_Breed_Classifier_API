@@ -61,6 +61,7 @@ grant all privileges on database db_name to db_user;
 \q
 ```  
 Make sure to change `db_name, db_user and db_password` by the ones you chose in settings.py.  
+You may need to apply the changes you did by running `python3 manage.py migrate`. 
 Then create a super user using: `python manage.py createsuperuser` and follow the steps.  
 Once we finish, we can run our app.   
 
