@@ -25,7 +25,7 @@ SECRET_KEY = 'os^!p5*2+5ft(l#7%=(g^a=u$#=#5gvuy*(^-l(xc08lv22weq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['0.0.0.0', 'dog-classifier-api.herokuapp.com']
 
 
 # Application definition
