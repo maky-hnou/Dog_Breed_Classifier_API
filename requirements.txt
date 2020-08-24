@@ -9,7 +9,7 @@ django-debug-toolbar==2.2
 django-heroku==0.3.1
 django-model-utils==4.0.0
 djangorestframework==3.11.0
-gast==0.2.2
+gast==0.3.3
 google-pasta==0.2.0
 grpcio==1.28.1
 h5py==2.10.0
@@ -17,9 +17,9 @@ idna==2.9
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 Markdown==3.2.1
-numpy==1.16.1
-opencv-contrib-python==4.1.1.26
-opencv-python==4.1.1.26
+numpy==1.17.3
+opencv-contrib-python==4.1.2.30
+opencv-python==4.1.2.30
 opt-einsum==3.2.1
 protobuf==3.11.3
 psycopg2==2.8.5
@@ -28,9 +28,9 @@ pytz==2019.3
 requests==2.23.0
 six==1.14.0
 sqlparse==0.3.1
-tensorboard==1.15.0
-tensorflow-estimator==1.15.1
-tensorflow-gpu==1.15.2
+tensorboard==2.2.0
+tensorflow-estimator==2.2.0
+tensorflow-gpu==2.2.0
 termcolor==1.1.0
 urllib3==1.25.9
 Werkzeug==1.0.1
