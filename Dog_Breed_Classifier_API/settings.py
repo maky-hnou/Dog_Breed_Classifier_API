@@ -71,17 +71,26 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Dog_Breed_Classifier_API.wsgi.application'
 
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#        'NAME': 'dog_breed',
+#        'USER': 'dog_user',
+#        'PASSWORD': 'db_pwd',
+#        'HOST': 'localhost',
+#        'PORT': '5432',
+#    }
+#}
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dog_breed',
-        'USER': 'dog_user',
-        'PASSWORD': 'db_pwd',
-        'HOST': 'localhost',
+        'NAME': 'd6jpvfccvu91b6',
+        'USER': 'ijymzfrdqcvsfq',
+        'PASSWORD': 'e87616a8e324207dcdb61add69333d3a94adc532f9f389d7a10418020ebbe867',
+        'HOST': 'ec2-34-195-115-225.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
