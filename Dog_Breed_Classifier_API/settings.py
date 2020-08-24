@@ -25,7 +25,7 @@ SECRET_KEY = 'os^!p5*2+5ft(l#7%=(g^a=u$#=#5gvuy*(^-l(xc08lv22weq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
@@ -74,9 +74,9 @@ WSGI_APPLICATION = 'Dog_Breed_Classifier_API.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db_name',
-        'USER': 'user',
-        'PASSWORD': 'password',
+        'NAME': 'dog_breed',
+        'USER': 'dog_user',
+        'PASSWORD': 'db_pwd',
         'HOST': 'localhost',
         'PORT': '5432',
     }
