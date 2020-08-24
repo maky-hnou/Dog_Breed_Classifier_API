@@ -74,9 +74,9 @@ WSGI_APPLICATION = 'Dog_Breed_Classifier_API.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db_name',
-        'USER': 'user',
-        'PASSWORD': 'password',
+        'NAME': 'db_dog',
+        'USER': 'db_user',
+        'PASSWORD': 'db_pwd',
         'HOST': 'localhost',
         'PORT': '5432',
     }
