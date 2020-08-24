@@ -24,7 +24,7 @@ The project has been organized as follows:
 - `templates/`: the folder that contains the HTML, CSS and Javscript files.
 
 ## Run the app:  
-*N.B:* use Python 3.6+  
+*N.B:* use Python 3.8  
 
 **1. Clone the repo:**  
 on your terminal, run `git clone https://github.com/maky-hnou/Dog_Breed_Classifier_API.git`  
@@ -40,7 +40,7 @@ Add the following lines to `~/.bashrc`:
 ```
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.8
 export VIRTUALENVWRAPPER_VIRTUALENV=~/.local/bin/virtualenv
 source ~/.local/bin/virtualenvwrapper.sh
 ```
