@@ -71,6 +71,3 @@ class Dog_Classifier:
             self.image_model.processing_time = \
                 '{} secondes'.format(processing_time)
             self.image_model.save()
-            # print('Processing time:', end_time - start_time)
-
-            # return predicted_label
