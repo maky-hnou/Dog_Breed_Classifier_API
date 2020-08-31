@@ -9,7 +9,11 @@
 ## About this repo:  
 
 An API for dog breeds classification.  
-The API has been developed using *Django Framework*. While the classifier was created based on *transfer learning* technique using the Google **Inception V3** architecture.  
+The API has been developed using *Django Framework*, while the classifier was created based on *transfer learning* technique using the Google **Inception V3** architecture.  
+It is deployed on Heroku via [this link](https://dog-classifier-api.herokuapp.com/Dog_Breed_Classifier/imagemodel/).  
+The credentials are:  
+- Username: classifier  
+- Login: api   
 
 ## Content of the repo:  
 The project has been organized as follows:  
