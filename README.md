@@ -87,6 +87,15 @@ You can filter the uploaded images by 'processed/not processed', upload date or 
 
 <a href="https://github.com/maky-hnou/Dog_Breed_Classifier_API/blob/master/demo/demo.gif"><img src="https://github.com/maky-hnou/Dog_Breed_Classifier_API/blob/master/demo/demo.gif" title="demo-gif"/></a>
 
+**8. Try it yourself:**  
+I also deployed the API on Heroku.  
+It is available via [this link](https://dog-classifier-api.herokuapp.com/Dog_Breed_Classifier/imagemodel/).  
+The credentials are:  
+- Username: classifier  
+- Login: api  
+Since the deployment was free, you may notice that it is slow due to the limited performances of the free hosting.  
+
+
 [python-version]:https://img.shields.io/badge/python-3.6+-brightgreen.svg
 [issues-image]:https://img.shields.io/github/issues/maky-hnou/Dog_Breed_Classifier_API.svg
 [issues-url]:https://github.com/maky-hnou/Dog_Breed_Classifier_API/issues
