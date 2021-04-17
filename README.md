@@ -17,7 +17,7 @@ The credentials are:
 
 ## Content of the repo:  
 The project has been organized as follows:  
-- `manage.py`: the python script used to run several commands (`runserver/makemigrations/maigrate` and the commands added by the the user).  
+- `manage.py`: the python script used to run django commands (`runserver/makemigrations/maigrate` and the commands added by the the user).  
 - `requirements.txt`: a text file containing the needed packages to run the project.  
 - `Dog_Breed_Classifier/`: the folder containing the model,views, urls, serializer, migration files and the custom commands and the core of the app.  
 - `Dog_Breed_Classifier/core`: the folder containing the model and the code used for the classification.  
@@ -79,8 +79,8 @@ After logging in, click on image models to open the interface.
 You can upload an image by clicking on *ADD IMAGE MODEL* on the top right.  
 Once you add an image, click on *save*.  
 To run the classification, check the box near the ID of the image you uploaded, then in *Actions*, choose *Run classification* and then press Go.  
-After that, the page will reload and you'll a bunch of information including the dog breed class.  
-To delete and image, check the box near its ID and choose *Delete selected image models* then press Go.  
+After that, the page will reload and you'll get a bunch of information including the dog breed class.  
+To delete an image, check the box near its ID and choose *Delete selected image models* then press Go.  
 It is also possible to run the classification from the terminal by opening another terminal while the app is running and run the following command (make sure to activate the virtual environment):  
 `python manage.py run_classification`  
 
